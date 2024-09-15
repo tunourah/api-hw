@@ -24,7 +24,7 @@ resCodes.forEach((code) => {
     card.appendChild(img);
      
     
-   console.log( img.src = `${url}${code}.jpg`)  ; 
+    img.src = `${url}${code}.jpg`  ; 
     img.alt = `HTTP Status Code ${code}`;
     img.classList.add('card-img-top');
 });
