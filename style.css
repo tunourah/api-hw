@@ -5,3 +5,13 @@ body {
     padding: 0;
  
 }
+
+.effects {
+    
+   
+    opacity: 0.5;
+}
+.effects:hover{
+    opacity: 1;
+    transition: 0.5s ;
+}

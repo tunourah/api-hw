@@ -26,5 +26,5 @@ resCodes.forEach((code) => {
     
     img.src = `${url}${code}.jpg`  ; 
     img.alt = `HTTP Status Code ${code}`;
-    img.classList.add('card-img-top');
+    img.classList.add('card-img-top' , 'effects');
 });
